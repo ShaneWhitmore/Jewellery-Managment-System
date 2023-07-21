@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jewellerystore.DrillDownController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@download.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="95.0" layoutX="505.0">
+         <image>
+            <Image url="@Diamond.png" />
+         </image>
+      </ImageView>
+      <ChoiceBox fx:id="caseIDDropDown" layoutX="14.0" layoutY="22.0" prefHeight="25.0" prefWidth="81.0" />
+      <Button fx:id="startDrillDown" layoutX="118.0" layoutY="22.0" mnemonicParsing="false" onAction="#startDrillDown" text="Go" />
+      <Button fx:id="returnHome" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#returnHome" text="Back" />
+      <ListView fx:id="viewOfDrillDown" layoutX="14.0" layoutY="70.0" prefHeight="282.0" prefWidth="574.0" />
+   </children>
+</Pane>
