@@ -28,7 +28,21 @@
 
 <br>
 <p>
- Hello World
+ On the jewellery item page, the three options to choose from are the 'Add Jewellery Item', this allows you to add and item to a specific tray in a specific display case (interface seen below),
+ the 'Search Jewellery Item' allows you to search for all items based on the item type (Watch, ring, necklace e.t.c.) and will return a hierarchy style result of the items location.
+</p>
+<br>
+
+
+
+
+  <img src="images/AddItemPage.png" alt="AddItemPage" width="500" height="350"/>
+
+
+
+<br>
+<p>
+ 
 </p>
 
 
